@@ -1,1 +1,29 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+  background-color: #1C2230;
+}
+
+/***MENU**/
+header img {
+  margin: 10px;
+}
+
+header img.img {
+  max-width: 11%;
+  height: auto;
+}
+
+header .col-6 .d-flex a {
+  color: white;
+  margin-top: 20px;
+}
+
+/**BANNER**/
+.banner {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+    background-color: #1C2230;
+}
+
+/***MENU**/
+
+header {
+    img {
+        margin: 10px;
+        &.img{
+            max-width: 11%;
+            height: auto;
+        }
+        
+    }
+    .col-6 {
+        .d-flex {
+            a {
+                color: white;
+                margin-top: 20px;
+            }
+        }
+    }
+        
+}
+
+/**BANNER**/
+
+.banner {
+    text-align: center;
+    
+}
