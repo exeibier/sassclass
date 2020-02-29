@@ -26,4 +26,14 @@ header .col-6 .d-flex a {
 .banner {
   text-align: center;
 }
+
+.banner .img img {
+  width: 100%;
+}
+
+.boton button {
+  background-color: #53C0C4;
+  padding: 10px 90px;
+  border-radius: 30px;
+}
 /*# sourceMappingURL=style.css.map */

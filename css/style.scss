@@ -1,3 +1,5 @@
+
+$myButton:#53C0C4;
 * {
     margin: 0;
     padding:0;
@@ -32,5 +34,23 @@ header {
 
 .banner {
     text-align: center;
+    .img {
+       img {
+              width: 100%;
+        }
+     }
     
+    
+}
+
+.boton {
+
+    button{
+        background-color:#53C0C4 ;
+        padding: 10px 90px;
+        border-radius:30px;
+        
+
+    }
+
 }
