@@ -1,6 +1,7 @@
 
 $myButton:#53C0C4;
-* {
+$breakpoint-md: 1023px;
+body {
     margin: 0;
     padding:0;
     box-sizing: border-box;
@@ -55,70 +56,128 @@ header {
 
 }
 /**SERVICES**/
-
+/*MOBILE SERVICES*/
 div.services-container{
     div.row{
         div.services{
             h5 {
+                background-color: #181F2B;
                 margin-top: 6vw;
                 text-align: center;
             }
             p{
+                background-color: #181F2B;
                 margin-top: 2vw;
                 text-align: center;
             }
+            background-color: #181F2B;
             margin-top: 10vw;
-            //margin-left: 5vw;
-            //margin-right: 5vw;
             margin-bottom: 10vw;
 
         }
-        /*margin-top: 10vw;
-        margin-left: 10vw;
-        margin-right: 10vw;
-        margin-bottom: 10vw;
-        */
+        background-color: #181F2B;
     }
+    background-color: #181F2B;
     margin-top: 30vw;
-    //margin-left: 10vw;
-    //margin-right: 10vw;
     margin-bottom: 20vw;
 }
+/*END MOBILE SERVICES*/
+/**DESKTOP SERVICES**/
+@media (min-width: 1023px)  { 
+    //@content; 
+    div.services-container{
+        div.row{
+            div.services{
+                h5 {
+                    margin-top: 2vw;
+                    text-align: center;
+                }
+                p{
+                    margin-top: 1vw;
+                    text-align: center;
+                }
+                margin-top: 0vw;
+                margin-left: 5vw;
+                margin-right: 5vw;
+                margin-bottom: 5vw;
+    
+            }
+            padding-left: 5vw;
+            padding-right: 5vw;
 
+            margin-top: 0vw;
+            margin-left: 0vw;
+            margin-right: 0vw;
+            margin-bottom: 0vw;
+            
+        }
+        margin-top: 0vw;
+        margin-left: 0vw;
+        margin-right: 0vw;
+        margin-bottom: 0vw;
+    }
+
+}
+
+/**END DESKTOP SERVICES**/
+/**END SERVICES**/
+
+/*INFO*/
+
+/*MOBILE*/
 div.info{
+    background-color: #181F2B;
     div.my-auto{
+        background-color: #181F2B;
         h5{
+            background-color: #181F2B;
             margin-top: 10vw;
             margin-bottom: 5vw;
         }
-        /*p{
-
-        }*/
         div.ref{
             a{
-                //margin-top: 3vw;
-                //text-decoration: underline;
+
                 color: #62E0D9;
-                //border-bottom: solid;
-                //border-bottom-style:ridge;
                 border-bottom-style: solid;
                 border-bottom-width: thin;
                 padding-bottom:5px;
-                //border-spacing: 15vw;
             }
-            margin-top: 3vw;
-            //border-bottom: medium;
-            //border-bottom: thick;
-            
+            margin-top: 3vw; 
         }      
+    }
+    .img-responsive{
+        height: 60vw;
+    
+    }
+}
+/** END MOBILE INFO**/
+/*DESKTOP INFO*/
+
+@media (min-width: 1023px)  { 
+    div.info{
+        div.my-auto{
+            h5{
+                margin-top: 10vw;
+                margin-bottom: 2vw;
+                font-size: xx-large;
+                padding-right: 15vw;
+            }
+            div.ref{
+                a{
+                    color: #62E0D9;
+                    border-bottom-style: solid;
+                    border-bottom-width: thin;
+                    padding-bottom:5px;
+                }
+                margin-top: 3vw;
+            }      
+        }
+        .img-responsive{
+            height: 30vw;
+        
+        }
     }
 }
 
 
-.img-responsive{
-    height: 60vw;
-
-}
-/*@media(){
-
-}*/
+/*END INFO*/
