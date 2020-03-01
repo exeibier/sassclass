@@ -36,4 +36,63 @@ header .col-6 .d-flex a {
   padding: 10px 90px;
   border-radius: 30px;
 }
+
+/**SERVICES**/
+div.services-container {
+  margin-top: 30vw;
+  margin-bottom: 20vw;
+}
+
+div.services-container div.row {
+  /*margin-top: 10vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-bottom: 10vw;
+        */
+}
+
+div.services-container div.row div.services {
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+}
+
+div.services-container div.row div.services h5 {
+  margin-top: 6vw;
+  text-align: center;
+}
+
+div.services-container div.row div.services p {
+  margin-top: 2vw;
+  text-align: center;
+}
+
+div.info div.my-auto {
+  /*p{
+
+        }*/
+}
+
+div.info div.my-auto h5 {
+  margin-top: 10vw;
+  margin-bottom: 5vw;
+}
+
+div.info div.my-auto div.ref {
+  margin-top: 3vw;
+}
+
+div.info div.my-auto div.ref a {
+  color: #62E0D9;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  padding-bottom: 5px;
+}
+
+.img-responsive {
+  height: 60vw;
+}
+
+/*@media(){
+
+}*/
 /*# sourceMappingURL=style.css.map */
