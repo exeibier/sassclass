@@ -318,7 +318,7 @@ div.info{
             .row {
                 font-size: 12px;
                 .logo-loc {
-                    padding-bottom: 20px;
+                    padding-bottom: 25px;;
                         img {
                             width: 120px;
                         }    
@@ -327,6 +327,7 @@ div.info{
                 }
                 .locacion {
                     flex-wrap: unset;
+                   
                 }
     
                 .contactos {
@@ -397,13 +398,6 @@ div.info{
 
 }
 
-div img{
-
-    position: relative;
-    top: 30px;
-    left: 30px;
-    
-}
 
 #ccomillas{
     background-image: url("../images/bg-quotes.png");
