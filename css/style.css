@@ -10,6 +10,7 @@ body {
 /***MENU**/
 header img {
   margin: 10px;
+  width: 100px;
 }
 
 header img.img {
