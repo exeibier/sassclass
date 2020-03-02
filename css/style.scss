@@ -310,6 +310,82 @@ div.info{
 
     /**FOOTER**/
 
+    .footer {
+        padding: 50px 0;
+        background-color: #121b29;
+    
+        .container {
+            .row {
+                font-size: 12px;
+                .logo-loc {
+                    padding-bottom: 20px;
+                        img {
+                            width: 120px;
+                        }    
+                
+                  
+                }
+                .locacion {
+                    flex-wrap: unset;
+                }
+    
+                .contactos {
+                    padding-bottom: 0px;
+                    padding-top: 60px;
+                    .row {
+                        padding-bottom: 5px;
+                        .iconos {
+                            padding: 0 20px 10px 14px;
+                            img{
+    
+                            }
+                        }
+                        .link {
+                            a {
+                                color:white
+                            }
+                        }
+                    }
+                   
+                }
+                .links {
+                    padding-bottom: 0px;
+                    padding-top: 55px;
+    
+                    .row {
+                        .col-12 {
+                            ul {
+                                list-style: none;
+                                padding-left: 0;
+                                li{
+                                    a {
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                .redes {
+                    text-align: center;
+                    padding-bottom: 0px;
+                    padding-top: 55px;
+                    a {
+                        color: white;
+                        border: 1px solid whitesmoke;
+                        padding: 10px 12px;
+                        border-radius: 20px;
+                        margin-right: 3px;
+                    }
+                }
+    
+            }
+           
+        }
+    }
+}
+
 /*END INFO*/
 
 /*---CARDS---*/
