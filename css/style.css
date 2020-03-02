@@ -243,6 +243,114 @@ div.info .img-responsive {
     height: 30vw;
   }
   /**FOOTER**/
+  /*END INFO*/
+  /*---CARDS---*/
+  .comillas {
+    width: 10px;
+    height: 10px;
+  }
+  div img {
+    position: relative;
+    top: 30px;
+    left: 30px;
+  }
+  #ccomillas {
+    background-image: url("../images/bg-quotes.png");
+    background-repeat: no-repeat;
+    background-size: 2.5vw;
+    background-position-x: 1vw;
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  #Satishcard {
+    background-image: url("../images/profile-1.jpg");
+    background-repeat: no-repeat;
+    background-position: absolute;
+    background-position-y: 6.5vw;
+    background-position-x: 2vw;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-size: 30px;
+    height: 170px;
+  }
+  #Brucecard {
+    background-image: url("../images/profile-2.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 6.5vw;
+    background-position-x: 2vw;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-size: 30px;
+    height: 170px;
+  }
+  #Ivacard {
+    background-image: url("../images/profile-3.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 6.5vw;
+    background-position-x: 2vw;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-size: 30px;
+    background-size: 30px;
+    height: 170px;
+  }
+  /*.row .border-white {
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}*/
+  #scomillas {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #scomillas2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .card {
+    background-color: #202a3c;
+    color: white;
+  }
+  .rcard {
+    background-color: #181F2B;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  /*---END CARDS---*/
+  /*---INFO---*/
+  .titulo {
+    text-align: center;
+  }
+  .acces {
+    background-color: #1c2431;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .suinput {
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .bget {
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .rinfo {
+    background-color: #181F2B;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  /*FOOTER*/
   .footer {
     padding: 50px 0;
     background-color: #121b29;
@@ -297,131 +405,4 @@ div.info .img-responsive {
     margin-right: 3px;
   }
 }
-<<<<<<< HEAD
-
-/*END INFO*/
-/*---CARDS---*/
-.comillas {
-  width: 10px;
-  height: 10px;
-}
-
-div img {
-  position: relative;
-  top: 30px;
-  left: 30px;
-}
-
-#ccomillas {
-  background-image: url("../images/bg-quotes.png");
-  background-repeat: no-repeat;
-  background-size: 2.5vw;
-  background-position-x: 1vw;
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-#Satishcard {
-  background-image: url("../images/profile-1.jpg");
-  background-repeat: no-repeat;
-  background-position: absolute;
-  background-position-y: 6.5vw;
-  background-position-x: 2vw;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-size: 30px;
-  height: 170px;
-}
-
-#Brucecard {
-  background-image: url("../images/profile-2.jpg");
-  background-repeat: no-repeat;
-  background-position-y: 6.5vw;
-  background-position-x: 2vw;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-size: 30px;
-  height: 170px;
-}
-
-#Ivacard {
-  background-image: url("../images/profile-3.jpg");
-  background-repeat: no-repeat;
-  background-position-y: 6.5vw;
-  background-position-x: 2vw;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  background-size: 30px;
-  background-size: 30px;
-  height: 170px;
-}
-
-/*.row .border-white {
-    
-    padding-top: 40px;
-    padding-bottom: 40px;
-
-}*/
-#scomillas {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-#scomillas2 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.card {
-  background-color: #202a3c;
-  color: white;
-}
-
-.rcard {
-  background-color: #181F2B;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-/*---END CARDS---*/
-/*---INFO---*/
-.titulo {
-  text-align: center;
-}
-
-.acces {
-  background-color: #1c2431;
-  color: white;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.suinput {
-  border-radius: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.bget {
-  border-radius: 15px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.rinfo {
-  background-color: #181F2B;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-
-/*---END INFO---*/
-=======
->>>>>>> xabier-branch
 /*# sourceMappingURL=style.css.map */
