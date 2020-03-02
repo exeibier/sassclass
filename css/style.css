@@ -17,6 +17,10 @@ header img.img {
   height: auto;
 }
 
+header .col-6.text {
+  font-size: 10px;
+}
+
 header .col-6 .d-flex a {
   color: white;
   margin-top: 20px;
@@ -24,6 +28,10 @@ header .col-6 .d-flex a {
 
 /**BANNER**/
 .banner {
+  background-image: url(../images/bg-curvy-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-size: 600px;
   text-align: center;
 }
 
@@ -31,7 +39,7 @@ header .col-6 .d-flex a {
   width: 100%;
 }
 
-.boton button {
+.banner .boton button {
   background-color: #53C0C4;
   padding: 10px 90px;
   border-radius: 30px;
@@ -69,37 +77,6 @@ div.services-container div.row div.services p {
 
 /*END MOBILE SERVICES*/
 /**DESKTOP SERVICES**/
-@media (min-width: 1023px) {
-  div.services-container {
-    margin-top: 0vw;
-    margin-left: 0vw;
-    margin-right: 0vw;
-    margin-bottom: 0vw;
-  }
-  div.services-container div.row {
-    padding-left: 5vw;
-    padding-right: 5vw;
-    margin-top: 0vw;
-    margin-left: 0vw;
-    margin-right: 0vw;
-    margin-bottom: 0vw;
-  }
-  div.services-container div.row div.services {
-    margin-top: 0vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    margin-bottom: 5vw;
-  }
-  div.services-container div.row div.services h5 {
-    margin-top: 2vw;
-    text-align: center;
-  }
-  div.services-container div.row div.services p {
-    margin-top: 1vw;
-    text-align: center;
-  }
-}
-
 /**END DESKTOP SERVICES**/
 /**END SERVICES**/
 /*INFO*/
@@ -134,8 +111,118 @@ div.info .img-responsive {
 }
 
 /** END MOBILE INFO**/
-/*DESKTOP INFO*/
+/*END INFO*/
+/*FOOTER*/
+.footer {
+  background-color: #121b29;
+}
+
+.footer .container .row .logo-loc {
+  padding-bottom: 40px;
+}
+
+.footer .container .row .contactos {
+  padding-bottom: 40px;
+}
+
+.footer .container .row .contactos .row {
+  padding-bottom: 15px;
+}
+
+.footer .container .row .contactos .row .iconos {
+  padding: 0 20px 10px 14px;
+}
+
+.footer .container .row .contactos .row .link a {
+  color: white;
+}
+
+.footer .container .row .links {
+  padding-bottom: 40px;
+}
+
+.footer .container .row .links .row .col-12 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer .container .row .links .row .col-12 ul li a {
+  color: white;
+}
+
+.footer .container .row .redes {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.footer .container .row .redes a {
+  color: white;
+  border: 1px solid whitesmoke;
+  padding: 10px 12px;
+  border-radius: 20px;
+  margin-right: 3px;
+}
+
 @media (min-width: 1023px) {
+  /**HEADER**/
+  .fondo {
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-position: 50% 122%;
+    background-size: 1300px;
+    background-repeat: no-repeat;
+  }
+  .fondo header {
+    margin: 10px;
+  }
+  .fondo header.img {
+    max-width: 11%;
+    height: auto;
+  }
+  .fondo header .col-6.text {
+    font-size: 20px;
+  }
+  .fondo header .col-6 .d-flex a {
+    color: white;
+    margin-top: 20px;
+  }
+  /**BANNER**/
+  .banner {
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  .banner .img img {
+    width: 50%;
+  }
+  /**DESKTOP SERVICES**/
+  div.services-container {
+    margin-top: 0vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-bottom: 0vw;
+  }
+  div.services-container div.row {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-top: 0vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin-bottom: 0vw;
+  }
+  div.services-container div.row div.services {
+    margin-top: 0vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+  }
+  div.services-container div.row div.services h5 {
+    margin-top: 2vw;
+    text-align: center;
+  }
+  div.services-container div.row div.services p {
+    margin-top: 1vw;
+    text-align: center;
+  }
+  /*DESKTOP INFO*/
   div.info div.my-auto h5 {
     margin-top: 10vw;
     margin-bottom: 2vw;
@@ -154,7 +241,59 @@ div.info .img-responsive {
   div.info .img-responsive {
     height: 30vw;
   }
+  /**FOOTER**/
+  .footer {
+    padding: 50px 0;
+    background-color: #121b29;
+  }
+  .footer .container .row {
+    font-size: 12px;
+  }
+  .footer .container .row .logo-loc {
+    padding-bottom: 20px;
+  }
+  .footer .container .row .logo-loc img {
+    width: 120px;
+  }
+  .footer .container .row .locacion {
+    -ms-flex-wrap: unset;
+        flex-wrap: unset;
+  }
+  .footer .container .row .contactos {
+    padding-bottom: 0px;
+    padding-top: 60px;
+  }
+  .footer .container .row .contactos .row {
+    padding-bottom: 5px;
+  }
+  .footer .container .row .contactos .row .iconos {
+    padding: 0 20px 10px 14px;
+  }
+  .footer .container .row .contactos .row .link a {
+    color: white;
+  }
+  .footer .container .row .links {
+    padding-bottom: 0px;
+    padding-top: 55px;
+  }
+  .footer .container .row .links .row .col-12 ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .footer .container .row .links .row .col-12 ul li a {
+    color: white;
+  }
+  .footer .container .row .redes {
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 55px;
+  }
+  .footer .container .row .redes a {
+    color: white;
+    border: 1px solid whitesmoke;
+    padding: 10px 12px;
+    border-radius: 20px;
+    margin-right: 3px;
+  }
 }
-
-/*END INFO*/
 /*# sourceMappingURL=style.css.map */

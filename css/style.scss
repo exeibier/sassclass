@@ -21,12 +21,16 @@ header {
         
     }
     .col-6 {
-        .d-flex {
-            a {
-                color: white;
-                margin-top: 20px;
-            }
+        &.text{
+            font-size: 10px;
+
         }
+            .d-flex {
+                a {
+                    color: white;
+                    margin-top: 20px;
+                }
+            }
     }
         
 }
@@ -34,27 +38,33 @@ header {
 /**BANNER**/
 
 .banner {
+    background-image: url(../images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: 600px;
     text-align: center;
     .img {
        img {
               width: 100%;
         }
-     }
-    
-    
-}
-
-.boton {
-
-    button{
-        background-color:#53C0C4 ;
-        padding: 10px 90px;
-        border-radius:30px;
-        
-
     }
+    .boton {
 
+        button{
+            background-color:#53C0C4 ;
+            padding: 10px 90px;
+            border-radius:30px;
+            
+    
+        }
+    
+    } 
+     
+    
+    
 }
+
+
 /**SERVICES**/
 /*MOBILE SERVICES*/
 div.services-container{
@@ -83,41 +93,7 @@ div.services-container{
 }
 /*END MOBILE SERVICES*/
 /**DESKTOP SERVICES**/
-@media (min-width: 1023px)  { 
-    //@content; 
-    div.services-container{
-        div.row{
-            div.services{
-                h5 {
-                    margin-top: 2vw;
-                    text-align: center;
-                }
-                p{
-                    margin-top: 1vw;
-                    text-align: center;
-                }
-                margin-top: 0vw;
-                margin-left: 5vw;
-                margin-right: 5vw;
-                margin-bottom: 5vw;
-    
-            }
-            padding-left: 5vw;
-            padding-right: 5vw;
 
-            margin-top: 0vw;
-            margin-left: 0vw;
-            margin-right: 0vw;
-            margin-bottom: 0vw;
-            
-        }
-        margin-top: 0vw;
-        margin-left: 0vw;
-        margin-right: 0vw;
-        margin-bottom: 0vw;
-    }
-
-}
 
 /**END DESKTOP SERVICES**/
 /**END SERVICES**/
@@ -151,9 +127,162 @@ div.info{
     }
 }
 /** END MOBILE INFO**/
-/*DESKTOP INFO*/
+
+
+/*END INFO*/
+
+/*FOOTER*/
+
+.footer {
+    background-color: #121b29;
+
+    .container {
+        .row {
+            .logo-loc {
+                padding-bottom: 40px;
+                    img {
+                    }    
+            
+              
+            }
+            .locacion {
+            }
+
+            .contactos {
+                padding-bottom: 40px;
+                .row {
+                    padding-bottom: 15px;
+                    .iconos {
+                        padding: 0 20px 10px 14px;
+                        img{
+
+                        }
+                    }
+                    .link {
+                        a {
+                            color:white
+                        }
+                    }
+                }
+               
+            }
+            .links {
+                padding-bottom: 40px;
+
+                .row {
+                    .col-12 {
+                        ul {
+                            list-style: none;
+                            padding-left: 0;
+                            li{
+                                a {
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .redes {
+                text-align: center;
+                padding-bottom: 20px;
+                a {
+                    color: white;
+                    border: 1px solid whitesmoke;
+                    padding: 10px 12px;
+                    border-radius: 20px;
+                    margin-right: 3px;
+                }
+            }
+
+        }
+       
+    }
+}
 
 @media (min-width: 1023px)  { 
+
+    /**HEADER**/
+    .fondo {
+        background-image: url(../images/bg-curvy-desktop.svg);
+        background-position: 50% 122%;
+        background-size: 1300px;
+        background-repeat: no-repeat;
+        
+        header {
+                 margin: 10px;
+            &.img{
+                max-width: 11%;
+                height: auto;
+            }
+            .col-6 {
+                &.text{
+                    font-size: 20px;
+        
+                }
+                    .d-flex {
+                        a {
+                            color: white;
+                            margin-top: 20px;
+                        }
+                    }
+            }
+        
+        }
+       
+                
+        
+    }
+       
+
+    /**BANNER**/
+    .banner {
+        text-align: center;
+        padding-bottom: 100px;
+        .img {
+           img {
+                  width: 50%;
+            }
+        }
+          
+    }
+    /**DESKTOP SERVICES**/
+
+    div.services-container{
+        div.row{
+            div.services{
+                h5 {
+                    margin-top: 2vw;
+                    text-align: center;
+                }
+                p{
+                    margin-top: 1vw;
+                    text-align: center;
+                }
+                margin-top: 0vw;
+                margin-left: 5vw;
+                margin-right: 5vw;
+                margin-bottom: 5vw;
+    
+            }
+            padding-left: 5vw;
+            padding-right: 5vw;
+
+            margin-top: 0vw;
+            margin-left: 0vw;
+            margin-right: 0vw;
+            margin-bottom: 0vw;
+            
+        }
+        margin-top: 0vw;
+        margin-left: 0vw;
+        margin-right: 0vw;
+        margin-bottom: 0vw;
+    }
+
+    /*DESKTOP INFO*/
+
     div.info{
         div.my-auto{
             h5{
@@ -177,7 +306,81 @@ div.info{
         
         }
     }
+
+    /**FOOTER**/
+
+    .footer {
+        padding: 50px 0;
+        background-color: #121b29;
+    
+        .container {
+            .row {
+                font-size: 12px;
+                .logo-loc {
+                    padding-bottom: 20px;
+                        img {
+                            width: 120px;
+                        }    
+                
+                  
+                }
+                .locacion {
+                    flex-wrap: unset;
+                }
+    
+                .contactos {
+                    padding-bottom: 0px;
+                    padding-top: 60px;
+                    .row {
+                        padding-bottom: 5px;
+                        .iconos {
+                            padding: 0 20px 10px 14px;
+                            img{
+    
+                            }
+                        }
+                        .link {
+                            a {
+                                color:white
+                            }
+                        }
+                    }
+                   
+                }
+                .links {
+                    padding-bottom: 0px;
+                    padding-top: 55px;
+    
+                    .row {
+                        .col-12 {
+                            ul {
+                                list-style: none;
+                                padding-left: 0;
+                                li{
+                                    a {
+                                        color: white;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                .redes {
+                    text-align: center;
+                    padding-bottom: 0px;
+                    padding-top: 55px;
+                    a {
+                        color: white;
+                        border: 1px solid whitesmoke;
+                        padding: 10px 12px;
+                        border-radius: 20px;
+                        margin-right: 3px;
+                    }
+                }
+    
+            }
+           
+        }
+    }
 }
-
-
-/*END INFO*/
